@@ -1,0 +1,858 @@
+  * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: beige;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 100px;
+            background-color: #5C629E;
+            position: fixed;
+            top: 0;
+            z-index: 99999;
+        }
+
+    .headingContent p{
+        font-size: 1.5vw;
+        margin: 5vw 5vw;
+        word-spacing: 0.8vw;
+    }
+
+        .name1 {
+            font-size: 3vw;
+            font-weight: bolder;
+            line-height: 60px;
+            color: white;
+            padding: 0 60px;
+            border-radius: 18px;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 30px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            line-height: 60px;
+            margin: 0 12px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 1.3vw;
+            text-transform: uppercase;
+            font-weight: bolder;
+            padding: 10px;
+            border-radius: 25px;
+        }
+
+        ul a:hover {
+            background-color: white;
+            color: black;
+            transition: ease-in 0.3s;
+        }
+
+        label .button {
+            font-size: 25px;
+            color: white;
+            float: right;
+            padding: 0 40px;
+            line-height: 60px;
+            display: none;
+            cursor: pointer;
+        }
+
+        #section-1{
+            margin-top: 10vw;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 100px;
+            /* border: 1px solid red; */
+        }
+
+        .firstSection .leftBox {
+            /* width: 30%; */
+            font-size: 4rem;
+
+        }
+
+        .text1 {
+            color: rgb(154, 68, 211);
+        }
+
+        .firstSection .rightBox {
+            /* border:3px solid blue; */
+            width: 30%
+        }
+
+        .firstSection .leftBox{
+            width: 60%;
+            margin-left: 9vw;
+        }
+        .purpule{
+            color: rgb(207, 142, 207);
+        }
+        #textone{
+            color: #f3b748;
+        }
+
+        .logo1{
+            margin-top: 1.5vw;
+          
+        }
+
+
+        .rightBox img {
+            width: 70%;
+            margin: 50px ;
+            /* margin-top: 1000px 0; */
+        }
+
+        .logo ul {
+            display: flex;
+            margin-top: 10px;
+            /* border: 2px solid  red; */
+        }
+
+        .logo ul li {
+            list-style: none;
+            margin: 100px 15px 0 0;
+        }
+
+
+        .secondSection  hr{
+            border: 2px solid #010101;
+            width: 25%;
+            margin-left: 2vw;
+        }
+
+
+        .secondSection .heading {
+            font-size: 40px;
+            padding: 0 40px 10px;
+            margin-top: 20px;
+            color: black;
+        }
+
+        .secondSection .headingContent {
+            /* padding: 0 40px 10px; */
+            margin-top: 20px;
+            color: black;
+            padding-bottom: 40px;
+        }
+
+        .blank3 {
+            /* border: 2px solid blue; */
+            height: 70px;
+        }
+
+        .thirdSection .aboutus {
+            font-size: 3rem;
+            /* border: 5px solid black; */
+            margin: auto;
+            width: 52%;
+            padding: 10px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .aboutus {
+            border: 5px solid black;
+        }
+        .project1{
+            color: blueviolet;
+        }
+        .project2{
+            color: blueviolet;
+        }
+
+        .thirdSection .aboutContent {
+            font-size: 20px;
+            margin: auto;
+            width: 70%;
+            padding: 80px;
+            text-align: center;
+        }
+
+        .line1 {
+            border: 4px solid black;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .designdevelopment {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+            padding-left: 50px;
+        }
+
+        .designdevelopment .design {
+            font-size: 1.8rem;
+            align-items: center;
+           
+        }
+
+        .designdevelopment .design h2{
+            color: #444141;
+        }
+
+        .dgn{
+            color:#0072b1;
+            font-size: 1.5vw;
+        }
+
+        .maintenance img{
+            width: 40%;
+        }
+
+        .maintenance h2{
+            font-size: 3vw; 
+            font-style: italic;
+        }
+        .designdevelopment .development {
+            font-size: 1.8rem;
+            align-items: center;
+        }
+
+        .designdevelopment .designContent {
+            font-size: 20px;
+        }
+
+        .designdevelopment .developmenContent {
+            font-size: 20px;
+        }
+
+        .thirdSection .maintenance {
+            text-align: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-top: 150px;
+        }
+
+        .thirdSection .mantenanceContent {
+            font-size: 20px;
+            margin: auto;
+            width: 70%;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .line2 {
+            border: 4px solid black;
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .sectionFour {
+            margin: auto;
+            margin: 120px 0 !important;
+        }
+
+        .sectionFour .skills {
+            font-size: 3rem;
+            margin: auto;
+            width: 45%;
+            text-align: center;
+            border: 5px solid black;
+        }
+
+        .sectionFour .usingnow {
+            width: 20%;
+            margin-top: 40px;
+            margin-left: 150px;
+            font-size: 1.4rem;
+            font-weight: bolder;
+        }
+
+        .sectionFour .skillslogo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .sectionFour .skillslogo>div {
+            width: 30%;
+            margin: 20px;
+            text-align: center;
+            line-height: 7px;
+            font-size: 30px;
+        }
+
+        .sectionFour .learning {
+            width: 20%;
+            margin-top: 40px;
+            margin-left: 150px;
+            font-size: 1.4rem;
+            font-weight: bolder;
+        }
+
+        .name {
+            font-weight: 600;
+            color: #f4526d;
+            font-style: italic;
+        }
+        
+
+        .sectionFour .learninglogo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .sectionFour .learninglogo>div {
+            width: 30%;
+            margin: 20px;
+            text-align: center;
+            line-height: 7px;
+            font-size: 30px;
+        }
+
+        .sectionFour .otherskills {
+            width: 20%;
+            margin-top: 40px;
+            margin-left: 150px;
+            font-size: 1.4rem;
+            font-weight: bolder;
+        }
+
+        .sectionFour .otherskillslogo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .sectionfive {
+            margin: auto;
+            margin-top: 120px;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            margin: auto;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .portfolio {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            border: 4px solid black;
+        }
+
+        .sectionfive .sectioncontent {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .sectionfive1 .sectioncontent img {
+            width: 33%;
+        }
+
+        .dHide {
+            display: none;
+        }
+            .logo{
+                width: 100%;
+            }
+        .logo1 ul{
+                display: flex;
+                margin: auto !important;
+                
+            }
+
+            .logo1 ul li{
+                margin: 8px;
+            }
+
+        footer {
+            height: 50vh;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            background: black;
+            color: aliceblue;
+            padding: 50px 0px 30px;
+            /* border-top-right-radius: 25px; */
+            /* border-top-left-radius: 125px; */
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .footerAddress{
+            color:blueviolet;
+        }
+        .sectionfive {
+            display: flex;
+            width: 85%;
+            flex-wrap: wrap;
+            margin: auto;
+            align-items: flex-start;
+            justify-content: space-between;
+            /* align-items: center; */
+        }
+
+        .logo{
+            font-size: 2.0vw;
+            width: 200px;
+            margin-bottom: 2vw;
+            font-style: italic;
+            height: 70px;
+        }
+
+        .container img{
+            width: 100%;
+            height: 400px;
+        }
+
+        .text{
+            color: #ccc;
+            margin-top: 1.1vw;
+            font-size: 1.1vw;
+            word-spacing: 0.4vw;
+        }
+            
+        #footer{
+           padding-top: 5vw;
+        }
+        #footer .inform i{
+            margin-top: .5vw;
+            font-size: 1.5vw;
+            padding: 12px 20px;
+            color: #ccc;
+        }
+
+        i.face{
+            color: #3b5998;
+        } 
+        i.insta{
+            color: crimson;
+        }
+        i.link{
+            color: #0072b1;
+        }
+        i.dis{
+            color: #7289DA;
+        }
+
+        .link1{
+            font-size: 1.5vw;
+        }
+
+        .coltwo .add{
+            margin-top: 0.8vw;
+            font-size: 1.2vw;
+            font-weight: lighter;
+        }
+
+        .colthree a{
+            font-size: 1.5vw;
+            
+        }
+
+        .colthree li{
+            margin-top: 1.5vw;
+        }
+
+
+
+        .colone,
+        .coltwo,
+        .colthree,
+        .colfour {
+            flex-basis: 20%;
+            /* padding: 10px; */
+            /* margin-bottom: 60px; */
+        }
+
+        .coltwo h3,
+        .colthree h3,
+        .colfour h3 {
+            /* width: fit-content; */
+            font-size: 2vw;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .emailid {
+            width: fit-content;
+            border-bottom: 1px solid #ccc;
+            margin: 10px 0px;
+            cursor: pointer;
+        }
+
+        .colthree ul li {
+            text-decoration: none;
+            /* color: white; */
+            margin-bottom: 6px;
+        }
+
+        .colthree ul li a {
+            color: white;
+            padding: 2px;
+        }
+
+        .colthree ul li a:hover {
+            background-color: blueviolet;
+            border-radius: 3px;
+        }
+
+        form {
+            padding-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+            /* margin: 50px; */
+        }
+
+        form .far {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        form input {
+            width: 100%;
+            background: transparent;
+            border: 0;
+            outline: none;
+            color: #ccc;
+            margin: 0px 10px;
+
+        }
+
+        /* .sectionfive1 .container{
+                background: url(mountain.jpg);
+
+        } */
+
+
+
+        @media only screen and (max-width : 768px) {
+            a {
+                font-size: 10px;
+                /* color: aqua !important; */
+            }
+
+            label .button {
+                display: block;
+            }
+
+            nav ul {
+
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background-color: black;
+                text-align: center;
+                top: 60px;
+                transition: all .5s;
+                display: block;
+            }
+
+            nav ul li {
+                display: block;
+            }
+
+            nav ul li a {
+                font-size: 20px;
+            }
+
+            ul a:hover {
+                background: none;
+                color: white;
+                border: 1px solid white;
+            }
+
+            .md-block {
+                display: block;
+            }
+
+            .md-none {
+                display: none !important;
+            }
+
+            .dHide {
+                display: block;
+            }
+
+            .name1 {
+                font-size: 2rem;
+                color: white;
+                padding: 0;
+                margin-left: 20px;
+            }
+
+            .button {
+                float: right;
+                font-size: 20px;
+                margin-right: 20px;
+                line-height: 60px;
+
+            }
+
+            footer {
+                height: 100%;
+                display: block;
+                flex-direction: column;
+                width: 100%;
+                position: relative;
+                bottom: 0;
+                background: black(28, 28, 28);
+                color: aliceblue;
+                padding: 50px 0px 30px;
+                /* border-top-right-radius: 25px; */
+                /* border-top-left-radius: 125px; */
+                font-size: 13px;
+                line-height: 20px;
+            }
+
+            #sectionfive1 .sectionfive {
+                display: block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+
+            }
+
+            .sectionfive .logo {
+                margin: auto;
+                font-size: 30px;
+            }
+
+            .colone,
+            .coltwo,
+            .colthree,
+            .colfour {
+                /* flex-basis: 20%; */
+                /* padding: 10px; */
+                margin-bottom: 30px;
+            }
+
+            .coltwo h3,
+            .colthree h3,
+            .colfour h3,
+            .sectionfive .logo {
+                /* width: fit-conten; */
+                margin-bottom: 20px;
+                position: relative;
+                float: center;
+            }
+
+            .emailid {
+                /* width: fit-content; */
+                border-bottom: 1px solid #ccc;
+                margin: auto !important;
+                cursor: pointer;
+                margin: 8px 0px;
+            }
+
+            form {
+                max-width: 80%;
+                margin: auto;
+            }
+
+            footer .inform {
+                max-width: 80%;
+                margin: auto;
+            }
+
+            .sectionfive a {
+                color: white;
+            }
+
+            .rightBox{
+                display: none;
+            }
+
+            .logo ul{
+                display: flex;
+                margin: auto !important;
+            }
+
+            #thirdSection{
+                margin-left: 20vw;
+            }
+
+            .maintenance img{
+                width: 110%;
+            }
+
+            .dgn{
+                color:#0072b1;
+                font-size: 3.5vw;
+            }
+
+            .maintenance h2{
+                margin-top: 0.5vw;
+                font-size: 7vw; 
+                font-style: italic;
+            }
+    
+        }
+
+        @media (max-width:1198px) {
+
+            nav ul li a {
+                font-size: 20px;
+            }
+
+            ul a:hover {
+                background: none;
+                color: white;
+                border: 1px solid white;
+            }
+
+            .sectionfive1 .sectioncontent img{
+            width: 120%;
+        }
+
+        .container img{
+            width: 150%;
+        }
+
+        .sectionfive1 .sectioncontent {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 1.6vw;
+            width: 100%;
+        }
+
+        .sectionfive1 .sectioncontent img{
+            width: 150%;
+    }
+
+        footer{
+            width: 150%;
+        }
+
+        #secondSection{
+          margin-left: 20vw;
+        }
+
+        .secondSection .headingContent {
+            width: 100%;
+            /* border: 1px solid; */
+            margin-top: 20px;
+            color: black;
+            padding: 5vw;
+            /* padding-bottom: 40px; */
+        }
+
+        #secondSection{
+            width: 100%;
+        }
+
+
+               .headingContent p{
+            font-size: 25px;
+        }
+
+        .aboutus{
+            font-size: 2px;
+        }
+
+        .firstSection .leftBox {
+             width: 100%; 
+            font-size: 4rem;
+
+        }
+
+        .thirdSection {
+            width: 100%;
+        }
+
+        .thirdSection .aboutus{
+            font-size: 8vw;
+            margin-left: 40vw;
+        }
+
+        .thirdSection .aboutContent {
+            margin-top: 10vw;
+            margin-left: 35vw;
+            font-size: 20px;
+            width: 70%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .thirdSection .aboutContent p{
+            font-size: 6vw;
+        }
+
+        .line1{
+            margin-top: 10vw;
+            margin-left: 40vw;
+        }
+
+        .designdevelopment{
+            display: flex;
+            flex-direction: column;
+            margin: 15vw;
+        }
+
+        .designContent{
+            margin-bottom: 15vw;
+        }
+
+        .sectionFour .skills {
+            font-size: 2rem;
+            margin: auto;
+            width: 45%;
+            text-align: center;
+            border: 5px solid black;
+        }
+    }
+
+        
